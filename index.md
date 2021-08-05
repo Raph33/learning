@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
-<header>
+<head>
     <link href="main.css" rel="stylesheet">
-</header>
+</head>
 
     <body>
         <p>Hello World</p>
