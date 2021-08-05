@@ -1,7 +1,7 @@
-<head>
-    <!doctype html>
+<!doctype html>
+<header>
     <link href="main.css" rel="stylesheet">
-</head>
+</header>
 
 <html>
     <body>
