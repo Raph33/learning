@@ -1,10 +1,13 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+
 <html>
-<head>
-    <link href="main.css" rel="stylesheet">
-</head>
+
+    <head>
+        <link href="main.css" rel="stylesheet">
+    </head>
 
     <body>
         <p>Hello World</p>
     </body>
+
 </html>
