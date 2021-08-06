@@ -5,10 +5,15 @@
 p,
 a {
     color: white;
-    font-family: Calibri;
+    font-family: Roboto, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px grey dashed;
 }
 
 #nav {
@@ -25,5 +30,28 @@ body {
 }
 
 main {
-    font-size: 25px
+    font-size: 23px
+}
+
+.article-title {
+    font-weight: 600;
+}
+
+.summary {
+    font-size: 18px;
+}
+
+#protonmail-note
+{
+    font-size: 15px;
+}
+
+
+#main-writing,
+#main-home {
+    padding: 50px 0;
+}
+
+#main-content-contact {
+    padding: 100px 0;
 }
