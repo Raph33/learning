@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+}
+
+p,
+a {
+    color: white;
+    font-family: Calibri;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+#nav {
+    text-align: right;
+
+}
+
+body {
+    padding: 20px;
+    min-width: 200px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    font-size: 25px
+}
