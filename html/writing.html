@@ -1,88 +1,145 @@
 <!DOCTYPE html>
-
 <html>
 
-    <head>
-        <link href="../resources/css/index.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>
-            Writing
-        </title>
-    </head>
+<head>
+    <title>Raphael Mimoun - Writing</title>
+    <link type="text/css" rel="stylesheet" href="../resources/css/index.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+</head>
 
-    <body>
+<body-writing>
 
-        <!-- Navigation menu-->
-        <header>
-            <p id="nav"><a href="../index.html">Home</a> | <a href="#">Writing</a> | <a href="contact.html">Contact</a></p>
-        </header>
+    <div class="heading">
         
+        <div class="button">
+            <a href="../index.html" id="back">< back</a>
+        </div>
         
-        <main id="main-writing">
-            <!--Zionism WashPost article-->
-            <p>
-                <a class="article-title" href="https://www.washingtonpost.com/opinions/2021/05/20/israel-gaza-war-zionism-apartheid-injustice-pressure/" target="_blank">Zionism cannot produce a just peace. Only external pressure can end the Israeli apartheid</a> | 
-                <span class="published-in">Washington Post</span> | 
-                <span class="publication-date">20 May 2021</span>
-                <br>
-                <span class="summary"></span>
-            </p>
-
-            <!--Telegram Hacker Noon-->
-            <p>
-                <a class="article-title" href="https://hackernoon.com/7-reason-why-telegram-is-insecure-by-design-but-millions-still-flock-to-it-ignoring-privacy-concerns-qq1o344c" target="_blank">Insecure By Design</a> | 
-                <span class="published-in">Hackernoon</span> | 
-                <span class="publication-date">19 Jan 2021</span>
-                <br>
-                <span class="summary">As millions flock to Telegram, 7 reasons to question the app’s privacy claims</span>
-            </p>
-
-            <!--OTF Newsweek-->
-            <p>
-                <a class="article-title" href="https://www.newsweek.com/open-technology-fund-trump-dismantling-1512614" target="_blank">Dictators are Besieging Internet Freedom-and Trump Just Opened the Gates</a> | 
-                <span class="published-in">Newsweek</span> | 
-                <span class="publication-date">22 June 202</span>
-                <br>
-                <span class="summary"></span>
-            </p>
-
-            <!--Abolition Newsweek-->
-            <p>
-                <a class="article-title" href="https://www.newsweek.com/defund-police-not-extreme-better-solutions-safer-1509713" target="_blank">Abolishing the Police is Not as Extreme as It Sounds. Here is How it Would Work</a> | 
-                <span class="published-in">Newsweek</span> | 
-                <span class="publication-date">6 June 2020</span>
-                <br>
-                <span class="summary"></span>
-            </p>
-
-            <!--Beyond Policing-->
-            <p>
-                <a class="article-title" href="https://medium.com/q-r/beyond-policing-c50a2da62723?source=friends_link&sk=3784ca6f8f1114b6476f5d5421bf2c2f" target="_blank">Beyond Policing</a> | 
-                <span class="published-in">Medium</span> | 
-                <span class="publication-date">4 June 2020</span>
-                <br>
-                <span class="summary">After the murder of George Floyd, many people are asking "What can be done?" The first step is to look at alternatives beyond reforms.</span>
-            </p>
-
-            <!--Racism in the Air-->
-            <p>
-                <a class="article-title" href="https://medium.com/q-r/racism-is-in-the-air-7dfbc18e4acc?source=friends_link&sk=c0aa8e01b988da58dd74e9cce1a81382" target="_blank">Racism is in the air</a> | 
-                <span class="published-in">Medium</span> | 
-                <span class="publication-date">1 Aug 2019</span>
-                <br>
-                <span class="summary">Most of us unwittingly contribute to racial tensions. Undoing it starts within.</span>
-            </p>      
+        <div id="heading">
+            <h1>Writing</h1>
+        </div>
             
-        </main>
+    </div>
 
-        <!-- Navigation menu-->
-        <footer>
-            <p id="nav"><a href="../index.html">Home</a> | <a href="#">Writing</a> | <a href="contact.html">Contact</a></p>
-        </footer>
+    <article-list>
+        
+    <!-- ARTICLE TEMPLATE
+        <a href="#" target="_blank" class="article">
+            <div class="title">
+                <h3>Article name</h3>
+            </div>
 
-    </body>
+            <div class="exerpt">
+                <p>Exemple of exerpt</p>
+            </div>
+
+            <div class="publication">
+                <p>Publication name</p>
+                <p>20 May 2021</p>
+            </div>
+        </a>
+    -->
+
+        <a href="https://www.washingtonpost.com/opinions/2021/05/20/israel-gaza-war-zionism-apartheid-injustice-pressure/" target="_blank" class="article">
+            <div class="title">
+                <h3>Zionism cannot produce a just peace.</h3>
+            </div>
+
+            <div class="exerpt">
+                <p>Only external pressure can end the Israeli apartheid.</p>
+            </div>
+
+            <div class="publication">
+                <p>Washington Post</p>
+                <p>20 May 2021</p>
+            </div>
+        </a>
+
+        <a href="https://hackernoon.com/7-reason-why-telegram-is-insecure-by-design-but-millions-still-flock-to-it-ignoring-privacy-concerns-qq1o344c" target="_blank" class="article">
+            <div class="title">
+                <h3>Telegram: Insecure By Design</h3>
+            </div>
+
+            <div class="exerpt">
+                <p>As millions flock to Telegram, 7 reasons to question the app’s privacy claims.</p>
+            </div>
+
+            <div class="publication">
+                <p>Hackernoon</p>
+                <p>19 Jan 2021</p>
+            </div>
+
+
+        </a>
+
+        <a href="https://www.newsweek.com/open-technology-fund-trump-dismantling-1512614" target="_blank" class="article">
+            <div class="title">
+                <h3>Dictators are Besieging Internet Freedom</h3>
+            </div>
+
+            <div class="exerpt">
+                <p>And Trump Just Opened the Gates.</p>
+            </div>
+
+            <div class="publication">
+                <p>Newsweek</p>
+                <p>22 June 2020</p>
+            </div>
+        </a>
+
+        <a href="https://www.newsweek.com/defund-police-not-extreme-better-solutions-safer-1509713" target="_blank" class="article">
+            <div class="title">
+                <h3>Abolishing the Police is Not as Extreme as It Sounds.</h3>
+            </div>
+
+            <div class="exerpt">
+                <p>Here is How it Would Work.</p>
+            </div>
+
+            <div class="publication">
+                <p>Newsweek</p>
+                <p>6 June 2020</p>
+            </div>
+        </a>
+
+        <a href="https://medium.com/q-r/beyond-policing-c50a2da62723?source=friends_link&sk=3784ca6f8f1114b6476f5d5421bf2c2f" target="_blank" class="article">
+            <div class="title">
+                <h3>Beyond Policing</h3>
+            </div>
+
+            <div class="exerpt">
+                <p>After the murder of George Floyd, many people are asking "What can be done?" The first step is to look at alternatives beyond reforms.</p>
+            </div>
+
+            <div class="publication">
+                <p>Medium</p>
+                <p>4 June 2020</p>
+            </div>            
+
+        </a>
+
+        <a href="https://medium.com/q-r/racism-is-in-the-air-7dfbc18e4acc?source=friends_link&sk=c0aa8e01b988da58dd74e9cce1a81382" target="_blank" class="article">
+            <div class="title">
+                <h3>Racism is in the air</h3>
+            </div>
+
+            <div class="exerpt">
+                <p>Most of us unwittingly contribute to racial tensions. Undoing it starts within.</p>
+            </div>
+
+            <div class="publication">
+                <p>Medium</p>
+                <p>1 Aug 2019</p>
+            </div>
+        </a>
+
+    </main>
+
+    <!-- End your code here -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
 
 </html>

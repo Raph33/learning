@@ -1,57 +1,104 @@
 * {
-    background-color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 p,
-a {
-    color: white;
-    font-family: Roboto, sans-serif;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 1.5;
-}
-
-a {
+a,
+h1 {
+    color: #414A4C;
+    font-family: "Inconsolata", monospace;
     text-decoration: none;
-    border-bottom: 1px grey dashed;
 }
 
-#nav {
-    text-align: right;
-
-}
-
-body {
-    padding: 20px;
-    min-width: 200px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+a,
+a.button {
+    text-decoration: underline dashed;
 }
 
 main {
-    font-size: 23px
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
-.article-title {
-    font-weight: 600;
+.section { 
+    width: 400px;
+    margin: 10px;
 }
 
-.summary {
-    font-size: 18px;
+#tijuana {
+    width: 100%;
+    height: auto;
 }
 
-#protonmail-note
-{
-    font-size: 15px;
+#text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
 
-
-#main-writing,
-#main-home {
-    padding: 50px 0;
+#home-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
-#main-content-contact {
-    padding: 100px 0;
+.button {
+  padding: 10px;
+  border-radius: 10%;
 }
+
+.button:hover,
+.button:hover * {
+  background-color: #F5F5F5;
+}
+
+body-writing {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto 100px auto;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+  
+  .article {
+    border-bottom: 0.5px solid lightgrey;
+    display: grid;
+    grid-template-rows: minmax(7px, 1fr);
+    padding: 20px 40px;
+    row-gap: 10px;
+    transition: 200ms background-color ease-in-out;
+    text-align: justify;
+    text-decoration: none;
+  }
+  
+  .article:hover {
+    background-color: #F5F5F5;
+  }
+
+
+  .article * {
+      transition: 200ms background-color ease-in-out;
+  }
+
+  .article:hover *   {
+    background-color: #F5F5F5;
+    color: #424242;
+  }
+  
+  .publication {
+    display: flex;
+    justify-content: space-between;
+    color: #757575;
+  }
