@@ -3,45 +3,48 @@
 <html>
 
     <head>
-        <link href="../resources/css/index.css" rel="stylesheet">
+        <title>Raphael Mimoun - Contact</title>
+        <link type="text/css" rel="stylesheet" href="../resources/css/index.css"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>
-            Contact
-        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    </head>
     </head>
 
-    <body>
+    <body-standardized>
 
-        <!-- Navigation menu-->
-        <header>
-            <p id="nav"><a href="../index.html">Home</a> | <a href="writing.html">Writing</a> | <a href="#">Contact</a></p>
-        </header>
+        <div class="heading">
+                
+            <div>
+                <a class="button" href="../index.html" id="back">< back</a>
+            </div>
+                
+            <div id="heading">
+                <h1>Contact</h1>
+            </div>
+                    
+        </div>
+        
+        <contact-list>
+
 
         <!-- Main content-->
         <main id="main-content-contact">
 
-            <p class="contact-method" id="Email">
-                <img src="../resources/img/email-white.svg">
-                <a href="mailto:raphmim@pm.me">raphmim@pm.me*</a>
-            </p>
-                
-            <p class="contact-method" id="Twitter">
-                <img src="../resources/img/twitter-white.svg">
-                <a href="https://twitter.com/raphmim" target="_blank">@raphmim</a>
-            </p>
+            <div class="contact-method" id="Email">
+                <img id="twitter-icon" src="../resources/img/email-icon-grey.svg">
+                <a href="mailto:raphmim@protonmail">raphmim@protonmail.com*</a>
+            </div>
 
-            <p id="protonmail-note">
-                *This is a <a href="https://protonmail.com" target="_blank">ProtonMail</a> email address. For extra privacy, email me from a ProtonMail account.
-            </p>
+            <div id="protonmail-note">
+                <p>
+                    *To send me an encrypted email, email me from a <a href="https://protonmail.com" target="_blank">ProtonMail</a> account or <a href="../resources/files/publickey.raphmim@protonmail.com-80cc8ef2bcda58f8134f9354b25ae8f27523c739.asc" download>download my PGP key</a>.  
+                </p>
+                </div>
+
+
             
         </main>
-
-        <!-- Navigation menu-->
-        <footer>
-            <p id="nav"><a href="../index.html">Home</a> | <a href="writing.html">Writing</a> | <a href="#">Contact</a></p>
-        </footer>
 
     </body>
