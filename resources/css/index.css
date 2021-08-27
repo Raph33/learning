@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 p,
 a,
 h1 {
@@ -32,10 +37,14 @@ a {
 
 /* HOMEPAGE */
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 main {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
 }
