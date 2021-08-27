@@ -11,6 +11,7 @@ a,
 h1 {
     color: #414A4C;
     font-family: "Inconsolata", monospace;
+    text-decoration: none;
 }
 
 .button {
@@ -23,9 +24,9 @@ h1 {
   background-color: #F5F5F5;
 }
 
-a.button,
+a.button-text,
 a {
-    text-decoration: underline dashed;
+    border-bottom: 1px black dashed;
 }
 
 
@@ -137,6 +138,7 @@ body-standardized {
 #protonmail-note {
   display: flex;
   padding: 20px 40px;
+  text-align: center;
 }
 
 #twitter-icon {
