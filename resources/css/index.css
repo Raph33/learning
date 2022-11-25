@@ -97,6 +97,10 @@ main {
   padding: 40px;
 }
 
+.heading2 {
+  padding: 20px 40px;
+}
+
 body-standardized {
     display: flex;
     flex-direction: column;
