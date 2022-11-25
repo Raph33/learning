@@ -13,7 +13,8 @@ body {
 
 p,
 a,
-h1 {
+h1,
+h2 {
     color: #414A4C;
     font-family: "Inconsolata", monospace;
     text-decoration: none;
