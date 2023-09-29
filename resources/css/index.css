@@ -16,8 +16,12 @@ a,
 h1,
 h2 {
     color: #414A4C;
-    font-family: "Inconsolata", monospace;
+    font-family: "Karla", monospace;
     text-decoration: none;
+}
+
+p {
+  font-size: 19px;
 }
 
 .button {
@@ -32,7 +36,7 @@ h2 {
 
 a.button-text,
 a {
-    border-bottom: 1px #757575 dashed;
+    border-bottom: 1.5px #757575 dashed;
 }
 
 
